@@ -15,7 +15,7 @@ namespace NetworkPuzzleSolver
         {
             for (int n = 0; n < 2; n++)
             {
-                for (int i = 0; i < 10; i++)
+                for (int i = 0; i < 3; i++)
                 {
                     float cellSize = 47.8f;
 
@@ -75,7 +75,7 @@ namespace NetworkPuzzleSolver
                         n = 0;
                         continue;
                     }
-                    Thread.Sleep(100);
+                    Thread.Sleep(400);
                 }
 
                 Thread.Sleep(200);

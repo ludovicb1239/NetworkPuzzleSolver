@@ -46,8 +46,6 @@ namespace NetworkPuzzleSolver
         public readonly Size size;
         readonly int[] patternCells;
         public readonly int[] maxRotationCells;
-
-        private HashSet<string> visitedStates = new();
         public Board(Cell[] cells, Size size)
         {
             if (cells.Length != size.Width * size.Height)
@@ -82,13 +80,8 @@ namespace NetworkPuzzleSolver
             {
                 if (IsValid(pos))
                 {
-                    string currentState = GetBoardState(i);
-                    if (!visitedStates.Contains(currentState))
-                    {
-                        visitedStates.Add(currentState);
-                        if (CheckConnection(i + 1))
-                            return true;
-                    }
+                    if (CheckConnection(i + 1))
+                        return true;
                 }
                 cells[pos].Rotate();
             }
@@ -242,16 +235,6 @@ namespace NetworkPuzzleSolver
 
             }
             return bitmap;
-        }
-        private string GetBoardState(int i)
-        {
-            StringBuilder state = new();
-            for(int n = 0; n <= i; n++)
-            {
-                int pos = patternCells[n];
-                state.Append(cells[pos].RotateCount); // or any other properties that represent the state
-            }
-            return state.ToString();
         }
     }
 }
