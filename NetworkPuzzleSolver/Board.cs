@@ -3,17 +3,22 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.IO;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace NetworkPuzzleSolver
 {
     public struct Cell
     {
-        public bool CanN;
-        public bool CanE;
-        public bool CanS;
-        public bool CanW;
+        public bool CanN { get; set; }
+        public bool CanE { get; set; }
+        public bool CanS { get; set; }
+        public bool CanW { get; set; }
         public int RotateCount;
+        public bool Freezed;
+        [JsonConstructor]
         public Cell(bool CanN,  bool CanE, bool CanS, bool CanW)
         {
             this.CanN = CanN;
@@ -21,6 +26,11 @@ namespace NetworkPuzzleSolver
             this.CanS = CanS;
             this.CanW = CanW;
             RotateCount = 0;
+            Freezed = false;    
+        }
+        public void Freeze()
+        {
+            Freezed = true;
         }
         public void Rotate()
         {
@@ -42,10 +52,11 @@ namespace NetworkPuzzleSolver
     public class Board
     {
         public PictureBox box;
-        public readonly Cell[] cells;
-        public readonly Size size;
+        public Cell[] cells { get; }
+        public Size size { get; }
         readonly int[] patternCells;
         public readonly int[] maxRotationCells;
+        //[JsonConstructor]
         public Board(Cell[] cells, Size size)
         {
             if (cells.Length != size.Width * size.Height)
@@ -67,7 +78,78 @@ namespace NetworkPuzzleSolver
 
         public bool Solve()
         {
+            {
+                List<int> CellsToCheck = new List<int>();
+                for (int pos = 0; pos < cells.Length; pos++)
+                {
+                    if (pos % size.Width == 0)
+                        CellsToCheck.Add(pos);
+                    if (pos < size.Width)
+                        CellsToCheck.Add(pos);
+                    if ((pos + 1) % size.Width == 0)
+                        CellsToCheck.Add(pos);
+                    if (pos >= cells.Length - size.Width)
+                        CellsToCheck.Add(pos);
+                }
+                while (CellsToCheck.Count > 0)
+                {
+                    int[] copy = CellsToCheck.ToArray();
+                    CellsToCheck.Clear();
+                    foreach (int pos in copy)
+                    {
+                        if (!FirstPassCheck(pos, CellsToCheck))
+                            return false;
+                    }
+                }
+                if (Done())
+                {
+                    return true;
+                }
+            }
+
             return CheckConnection(0);
+        }
+        int calls = 0;
+        bool FirstPassCheck(int pos, List<int> CellsToCheck)
+        {
+            if (cells[pos].Freezed)
+                return true;
+            int validCount = 0;
+            int rot = -1;
+            for (int n = 0; n < maxRotationCells[pos]; n++)
+            {
+                if (IsValid(pos, true))
+                {
+                    validCount++;
+                    rot = cells[pos].RotateCount;
+                    if (validCount > 1)
+                        break;
+                }
+                cells[pos].Rotate();
+            }
+            if (validCount == 0)
+                return false;
+            else if (validCount == 1)
+            {
+                while (cells[pos].RotateCount != rot)
+                    cells[pos].Rotate();
+                cells[pos].Freeze();
+
+
+                if (pos % size.Width != 0)
+                    CellsToCheck.Add(pos - 1);
+                if (pos >= size.Width)
+                    CellsToCheck.Add(pos - size.Width);
+                if ((pos + 1) % size.Width != 0)
+                    CellsToCheck.Add(pos + 1);
+                if (pos < cells.Length - size.Width)
+                    CellsToCheck.Add(pos + size.Width);
+
+                //if (calls < 1000)
+                //    Draw().Save($"image_{maxRotationCells.GetHashCode()}_{calls.ToString("000")}.png");
+                //calls++;
+            }
+            return true;
         }
         bool CheckConnection(int i)
         {
@@ -75,10 +157,19 @@ namespace NetworkPuzzleSolver
                 return Done();
             int pos = this.patternCells[i];
 
-            //Try with empty cell
+            if (cells[pos].Freezed)
+            {
+                return CheckConnection(i + 1);
+            }
+
             for (int n = 0; n < maxRotationCells[pos]; n++)
             {
-                if (IsValid(pos))
+
+                //if (calls < 1000)
+                //    Draw().Save($"image_{maxRotationCells.GetHashCode()}_{calls.ToString("000")}.png");
+                //calls++;
+
+                if (IsValid(pos, false))
                 {
                     if (CheckConnection(i + 1))
                         return true;
@@ -113,12 +204,23 @@ namespace NetworkPuzzleSolver
 
             return path.ToArray();
         }
-        bool IsValid(int i) //Only checks if it connects W and N
+        bool IsValid(int i, bool onlyFreezed) //Only checks if it connects W and N
         {
             if (i % size.Width != 0)
             {
-                if (cells[i - 1].CanE != cells[i].CanW) 
-                    return false;
+                if (onlyFreezed)
+                {
+                    if (cells[i - 1].Freezed)
+                    {
+                        if (cells[i - 1].CanE != cells[i].CanW)
+                            return false;
+                    }
+                }
+                else
+                {
+                    if (cells[i - 1].CanE != cells[i].CanW)
+                        return false;
+                }
             }
             else
             {
@@ -127,8 +229,19 @@ namespace NetworkPuzzleSolver
             }
             if (i >= size.Width)
             {
-                if (cells[i - size.Width].CanS != cells[i].CanN)
-                    return false;
+                if (onlyFreezed)
+                {
+                    if (cells[i - size.Width].Freezed)
+                    {
+                        if (cells[i - size.Width].CanS != cells[i].CanN)
+                            return false;
+                    }
+                }
+                else
+                {
+                    if (cells[i - size.Width].CanS != cells[i].CanN)
+                        return false;
+                }
             }
             else
             {
@@ -140,10 +253,26 @@ namespace NetworkPuzzleSolver
                 if (cells[i].CanE)
                     return false;
             }
+            else
+            {
+                if (cells[(i + 1)].Freezed)
+                {
+                    if (cells[i].CanE != cells[i + 1].CanW)
+                        return false;
+                }
+            }
             if (i >= cells.Length - size.Width)
             {
                 if (cells[i].CanS)
                     return false;
+            }
+            else
+            {
+                if (cells[(i + size.Width)].Freezed)
+                {
+                    if (cells[i].CanS != cells[i + size.Width].CanN)
+                        return false;
+                }
             }
             return true;
         }
@@ -192,6 +321,22 @@ namespace NetworkPuzzleSolver
                 FloodFill(grid, row - 1, col);
             }
         }
+
+        public void Save(string filePath)
+        {
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true
+            };
+            string jsonString = JsonSerializer.Serialize(this, options);
+            File.WriteAllText(filePath, jsonString);
+        }
+
+        public static Board Load(string filePath)
+        {
+            string jsonString = File.ReadAllText(filePath);
+            return JsonSerializer.Deserialize<Board>(jsonString);
+        }
         public Bitmap Draw()
         {
             int cellSize = 40;
@@ -211,6 +356,7 @@ namespace NetworkPuzzleSolver
                     int col = i % size.Width;
                     int centerX = (col * cellSize) + cellSize / 2;
                     int centerY = (row * cellSize) + cellSize / 2;
+                    linePen.Color = cells[i].Freezed ? Color.DeepPink : Color.RebeccaPurple;
                     if (cells[i].CanN)
                         graphics.DrawLine(linePen, centerX, centerY, centerX, centerY - cellSize/2);
                     if (cells[i].CanS)

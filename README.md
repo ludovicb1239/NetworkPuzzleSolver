@@ -2,8 +2,8 @@
 
 Welcome to the **Network Puzzle Solver**! This is an open-source program written in C# that automatically solves Network/Pipes puzzles by scanning them, computing the optimal solution in under 1ms, and even moving the mouse to interact with the puzzle on your Windows machine. 🚀
 
-![Network Puzzle Example 1](1.PNG)
-![Network Puzzle Example 2](2.PNG)
+![Network Puzzle Example 1](media/1.PNG)
+![Network Puzzle Example 2](media/2.PNG)
 
 ## 🌟 Features
 

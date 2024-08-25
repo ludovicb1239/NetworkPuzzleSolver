@@ -1,5 +1,8 @@
+using System.Diagnostics;
 using System.Drawing;
 using System.Runtime.CompilerServices;
+using System.Text;
+using System.Text.RegularExpressions;
 
 namespace NetworkPuzzleSolver
 {
@@ -9,6 +12,38 @@ namespace NetworkPuzzleSolver
         public Form1()
         {
             InitializeComponent();
+
+            string folderPath = @"puzzles"; // Replace with your folder path
+            string[] files = Directory.GetFiles(folderPath);
+
+            foreach (string file in files)
+            {
+                Stopwatch profiler = new();
+                for (int i = 0;  i < 100; i++)
+                {
+                    Board board = Board.Load(file);
+                    profiler.Start();
+
+                    bool solved = board.Solve();
+
+                    profiler.Stop();
+
+                    if (!solved)
+                        throw new Exception("Could not solve");
+                }
+                double elapsedMicroseconds = (double)profiler.ElapsedTicks / Stopwatch.Frequency * 1_000_000;
+                Console.WriteLine($"{file}\t\t Solve Time: {(int)(elapsedMicroseconds / 100f)} µs");
+            }
+        }
+        private static int ExtractNumberFromFileName(string fileName)
+        {
+            // Regular expression to find the number in the file name
+            Match match = Regex.Match(fileName, @"\d+");
+            if (match.Success)
+            {
+                return int.Parse(match.Value);
+            }
+            return 0; // If no number is found, treat it as 0
         }
 
         void Solve()
@@ -95,11 +130,23 @@ namespace NetworkPuzzleSolver
             Bitmap notSolvedImage = board.Draw();
             Console.WriteLine("Scanned Board" + board.ToString());
 
+            Stopwatch profiler = new();
+            profiler.Start();
+
+            Cell[] beforeCells = board.cells.ToArray();
+
             board.box = OutputImageBox;
             bool solved = board.Solve();
 
+            profiler.Stop();
+            double elapsedMicroseconds = (double)profiler.ElapsedTicks / Stopwatch.Frequency * 1_000_000;
+            Console.WriteLine($"Solve Time: {elapsedMicroseconds:F3} µs");
+
             if (solved)
             {
+                Board boardUnsolved = new(beforeCells, size);
+                boardUnsolved.Save($"puzzles\\{size.Width}x{size.Height}_{(int)elapsedMicroseconds}.json");
+
                 Console.WriteLine("Solved" + board.ToString());
 
                 Bitmap solvedImage = board.Draw();
@@ -144,7 +191,7 @@ namespace NetworkPuzzleSolver
 
         private void SolveButton_Click(object sender, EventArgs e)
         {
-            if (th == null || th.ThreadState != ThreadState.Running)
+            if (th == null || th.ThreadState != System.Threading.ThreadState.Running)
             {
                 th = new Thread(Solve);
                 th.Start();
