@@ -31,6 +31,7 @@
             SolveButton = new Button();
             InputImageBox = new PictureBox();
             OutputImageBox = new PictureBox();
+            CloseBtt = new Button();
             ((System.ComponentModel.ISupportInitialize)InputImageBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)OutputImageBox).BeginInit();
             SuspendLayout();
@@ -63,11 +64,22 @@
             OutputImageBox.TabIndex = 2;
             OutputImageBox.TabStop = false;
             // 
+            // CloseBtt
+            // 
+            CloseBtt.Location = new Point(60, 72);
+            CloseBtt.Name = "CloseBtt";
+            CloseBtt.Size = new Size(75, 23);
+            CloseBtt.TabIndex = 3;
+            CloseBtt.Text = "Close";
+            CloseBtt.UseVisualStyleBackColor = true;
+            CloseBtt.Click += CloseBtt_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(501, 533);
+            Controls.Add(CloseBtt);
             Controls.Add(OutputImageBox);
             Controls.Add(InputImageBox);
             Controls.Add(SolveButton);
@@ -83,5 +95,6 @@
         private Button SolveButton;
         private PictureBox InputImageBox;
         private PictureBox OutputImageBox;
+        private Button CloseBtt;
     }
 }
