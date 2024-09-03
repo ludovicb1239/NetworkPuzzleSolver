@@ -18,6 +18,7 @@ namespace NetworkPuzzleSolver
         public bool CanW { get; set; }
         public int RotateCount;
         public bool Freezed;
+        public int Count;
         [JsonConstructor]
         public Cell(bool CanN,  bool CanE, bool CanS, bool CanW)
         {
@@ -27,6 +28,11 @@ namespace NetworkPuzzleSolver
             this.CanW = CanW;
             RotateCount = 0;
             Freezed = false;    
+            Count = 0;
+            Count += CanN ? 1 : 0;
+            Count += CanE ? 1 : 0;
+            Count += CanS ? 1 : 0;
+            Count += CanW ? 1 : 0;
         }
         public void Freeze()
         {
@@ -155,7 +161,9 @@ namespace NetworkPuzzleSolver
         {
             if (i == size.Width * size.Height)
                 return Done();
+
             int pos = this.patternCells[i];
+            //int pos = i;
 
             if (cells[pos].Freezed)
             {
@@ -221,6 +229,8 @@ namespace NetworkPuzzleSolver
                     if (cells[i - 1].CanE != cells[i].CanW)
                         return false;
                 }
+                if (cells[i].CanW && cells[i].Count == 1 && cells[i - 1].Count == 1)
+                    return false;
             }
             else
             {
@@ -242,6 +252,8 @@ namespace NetworkPuzzleSolver
                     if (cells[i - size.Width].CanS != cells[i].CanN)
                         return false;
                 }
+                if (cells[i].CanN && cells[i].Count == 1 && cells[i - size.Width].Count == 1)
+                    return false;
             }
             else
             {
@@ -260,6 +272,8 @@ namespace NetworkPuzzleSolver
                     if (cells[i].CanE != cells[i + 1].CanW)
                         return false;
                 }
+                if (cells[i].CanE && cells[i].Count == 1 && cells[i + 1].Count == 1)
+                    return false;
             }
             if (i >= cells.Length - size.Width)
             {
@@ -273,6 +287,8 @@ namespace NetworkPuzzleSolver
                     if (cells[i].CanS != cells[i + size.Width].CanN)
                         return false;
                 }
+                if (cells[i].CanS && cells[i].Count == 1 && cells[i + size.Width].Count == 1)
+                    return false;
             }
             return true;
         }

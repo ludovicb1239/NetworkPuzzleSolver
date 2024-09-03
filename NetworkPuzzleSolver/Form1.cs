@@ -9,6 +9,7 @@ namespace NetworkPuzzleSolver
     public partial class Form1 : Form
     {
         static Thread th;
+        bool savePuzzle = false;
         public Form1()
         {
             InitializeComponent();
@@ -18,10 +19,14 @@ namespace NetworkPuzzleSolver
 
             foreach (string file in files)
             {
+                if (!file.EndsWith(".json"))
+                    continue;
+
                 Stopwatch profiler = new();
                 for (int i = 0;  i < 100; i++)
                 {
                     Board board = Board.Load(file);
+
                     profiler.Start();
 
                     bool solved = board.Solve();
@@ -48,76 +53,72 @@ namespace NetworkPuzzleSolver
 
         void Solve()
         {
-            for (int n = 0; n < 2; n++)
+            int i = 0;
+            while (i < 2)
             {
-                for (int i = 0; i < 3; i++)
+                float cellSize = 47.8f;
+                i++;
+
+                Size size = new Size(5, 5);
+                Rectangle rect = new Rectangle(new Point(1403, 472), new Size(239, 239));
+                Bitmap bmp = TakeScreenshotRegion(rect);
+                //if (SolveAndPlay(rect, size, bmp))
+                //{
+                //    i = 0;
+                //    continue;
+                //}
+                //
+                //size = new Size(6, 6);
+                //rect = new Rectangle(new Point(1379, 448), new Size(287, 287));
+                //bmp = TakeScreenshotRegion(rect);
+                //if (SolveAndPlay(rect, size, bmp))
+                //{
+                //    i = 0;
+                //    continue;
+                //}
+                //
+                //size = new Size(7, 7);
+                //rect = new Rectangle(new Point(1355, 438), new Size(335, 335));
+                //bmp = TakeScreenshotRegion(rect);
+                //if (SolveAndPlay(rect, size, bmp))
+                //{
+                //    i = 0;
+                //    continue;
+                //}
+                //
+                //size = new Size(11, 11);
+                //rect = new Rectangle(new Point(1263, 437), new Size(520, 520));
+                //bmp = TakeScreenshotRegion(rect);
+                //if (SolveAndPlay(rect, size, bmp))
+                //{
+                //    i = 0;
+                //    continue;
+                //}
+                //
+                //size = new Size(12, 12);
+                //bmp = TakeScreenshotRegion(rect);
+                //if (SolveAndPlay(rect, size, bmp))
+                //{
+                //    i = 0;
+                //    continue;
+                //}
+                //size = new Size(13, 13);
+                //bmp = TakeScreenshotRegion(rect);
+                //if (SolveAndPlay(rect, size, bmp))
+                //{
+                //    i = 0;
+                //    continue;
+                //}
+                size = new Size(25, 25);
+                rect = new Rectangle(new Point(620, 289), new Size(702, 702));
+                bmp = TakeScreenshotRegion(rect);
+                if (SolveAndPlay(rect, size, bmp))
                 {
-                    float cellSize = 47.8f;
-
-                    Size size = new Size(5, 5);
-                    Rectangle rect = new Rectangle(new Point(1403, 472), new Size(239, 239));
-                    Bitmap bmp = TakeScreenshotRegion(rect);
-                    if (SolveAndPlay(rect, size, bmp))
-                    {
-                        i = 0;
-                        n = 0;
-                        continue;
-                    }
-
-                    size = new Size(6, 6);
-                    rect = new Rectangle(new Point(1379, 448), new Size(287, 287));
-                    bmp = TakeScreenshotRegion(rect);
-                    if (SolveAndPlay(rect, size, bmp))
-                    {
-                        i = 0;
-                        n = 0;
-                        continue;
-                    }
-
-                    size = new Size(7, 7);
-                    rect = new Rectangle(new Point(1355, 438), new Size(335, 335));
-                    bmp = TakeScreenshotRegion(rect);
-                    if (SolveAndPlay(rect, size, bmp))
-                    {
-                        i = 0;
-                        n = 0;
-                        continue;
-                    }
-
-                    size = new Size(11, 11);
-                    rect = new Rectangle(new Point(1263, 437), new Size(520, 520));
-                    bmp = TakeScreenshotRegion(rect);
-                    if (SolveAndPlay(rect, size, bmp))
-                    {
-                        i = 0;
-                        n = 0;
-                        continue;
-                    }
-
-                    size = new Size(12, 12);
-                    bmp = TakeScreenshotRegion(rect);
-                    if (SolveAndPlay(rect, size, bmp))
-                    {
-                        i = 0;
-                        n = 0;
-                        continue;
-                    }
-                    size = new Size(13, 13);
-                    bmp = TakeScreenshotRegion(rect);
-                    if (SolveAndPlay(rect, size, bmp))
-                    {
-                        i = 0;
-                        n = 0;
-                        continue;
-                    }
-                    Thread.Sleep(400);
+                    i = 0;
+                    continue;
                 }
-
-                Thread.Sleep(200);
-                Player.SimulateMouseClick(1432, 602);
-                Thread.Sleep(200);
+                Thread.Sleep(400);
             }
-
         }
 
         bool SolveAndPlay(Rectangle rect, Size size, Bitmap bitmap)
@@ -133,7 +134,7 @@ namespace NetworkPuzzleSolver
             Stopwatch profiler = new();
             profiler.Start();
 
-            Cell[] beforeCells = board.cells.ToArray();
+            Cell[] beforeCells = savePuzzle ? board.cells.ToArray() : null;
 
             board.box = OutputImageBox;
             bool solved = board.Solve();
@@ -144,8 +145,11 @@ namespace NetworkPuzzleSolver
 
             if (solved)
             {
-                Board boardUnsolved = new(beforeCells, size);
-                boardUnsolved.Save($"puzzles\\{size.Width}x{size.Height}_{(int)elapsedMicroseconds}.json");
+                if (savePuzzle)
+                {
+                    Board boardUnsolved = new(beforeCells, size);
+                    boardUnsolved.Save($"puzzles\\{size.Width}x{size.Height}_{(int)elapsedMicroseconds}.json");
+                }
 
                 Console.WriteLine("Solved" + board.ToString());
 

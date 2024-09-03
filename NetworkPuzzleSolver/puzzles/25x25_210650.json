@@ -1,0 +1,3759 @@
+{
+  "cells": [
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": true,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": true,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": true
+    },
+    {
+      "CanN": true,
+      "CanE": false,
+      "CanS": false,
+      "CanW": false
+    },
+    {
+      "CanN": false,
+      "CanE": false,
+      "CanS": true,
+      "CanW": true
+    }
+  ],
+  "size": {
+    "IsEmpty": false,
+    "Width": 25,
+    "Height": 25
+  }
+}
